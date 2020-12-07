@@ -1,11 +1,11 @@
 import { User } from "./models/User";
 
-const user = new User({ id: 1 });
+const user = new User({ name: "Hydego New", age: 99 });
 
-user.set({ name: "Hydego New", age: 99 });
-
-user.events.on("change", () => {
-  console.log("Change!");
+user.on("change", () => {
+  console.log("changed!");
 });
 
-user.events.trigger("change");
+user.trigger("change");
+
+console.log(user.get("name"));
