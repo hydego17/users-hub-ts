@@ -24,6 +24,11 @@
       "name": "Sakura",
       "age": 17,
       "id": 5
+    },
+    {
+      "name": "Itachi",
+      "age": 23,
+      "id": 6
     }
   ]
 }
