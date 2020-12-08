@@ -9,6 +9,21 @@
       "name": "Naruto",
       "age": 17,
       "id": 2
+    },
+    {
+      "name": "Sasuke",
+      "age": 17,
+      "id": 3
+    },
+    {
+      "name": "Kakashi",
+      "age": 30,
+      "id": 4
+    },
+    {
+      "name": "Sakura",
+      "age": 17,
+      "id": 5
     }
   ]
 }
